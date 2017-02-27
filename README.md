@@ -8,13 +8,12 @@ A Browserify plugin for ignoring files
 browserify src/index.js -o out/index.js -p [ browserify-file-filter -p \"\\.(?:css|less|scss|sass)$\" ]
 ```
 
+You must specify a valid RegExp for the p-parameter for the plugin to work.
+
 ## install
 
 ```js
 npm install browserify-file-filter
 ```
 
-## Options
-
-By default none files are excluded. 
 
