@@ -1,0 +1,11 @@
+{
+  "name": "browserify-file-filter",
+  "version": "1.0.0",
+  "description": "Browserify file filter",
+  "main": "index.js",
+  "author": "Nicklas Utgaard",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^2.0.3"
+  }
+}
