@@ -4,10 +4,8 @@ A Browserify plugin for ignoring files
 
 ## Usage
 
-```js
-var browserify = require('browserify');
-var b = browserify({ /* stuff */ });
-b.plugin(require('browserify-file-filter'));
+```
+browserify src/index.js -o out/index.js -p [ browserify-file-filter -p \"\\.(?:css|less|scss|sass)$\" ]
 ```
 
 ## install
